@@ -9,7 +9,6 @@ import java.util.Map;
 public interface StudentService {
     List<StudentDto> getAllStudents();
 
-
     StudentDto getStudentById(Long id);
 
     StudentDto createNewStudent(AddStudentRequestDto addStudentRequestDto);
